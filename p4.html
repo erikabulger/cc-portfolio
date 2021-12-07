@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Erika Bulger | Code Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://use.typekit.net/tic5nhz.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+  <!-- navigation menu -->
+    <div class="nav">
+      <h1>Erika Bulger</h1>
+      <ul>
+        <li><a href="p1.html">#1 Lost and Found</a></li>
+        <li><a href="p2.html">#2 Face Generator</a></li>
+        <li><a href="p3.html">#3 Experimental Clock</a></li>
+        <li><a href="p4.html">#4 Exquisite Corpse</a></li>
+        <li><a href="p5.html">#5 Optical Illusion</a></li>
+        <li><a href="p6.html">#6 Data Portrait</a></li>
+        <li><a href="p7.html">#7 Autobiographical Game</a></li>
+        <li><a href="p8.html">#8 Experimental Camera</a></li>
+        <li><a href="p9.html">#9 Consentful Interface</a></li>
+        <li><a href="p10.html">#10 Anti-Surveillance Tool</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+   <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project #4 Exquisite Corpse
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          allow="camera"
+          width="600px"
+          height="600px"
+          src="https://preview.p5js.org/erikabulger/embed/wOWe-IIfi"></iframe>
+        
+      </div>
+      <p>
+        <a href="https://editor.p5js.org/erikabulger/sketches/wOWe-IIfi">link to code</a>
+      </p>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        I was tasked to collaboratively assemble an exquisite corpse image with another partner and draw it in code.
+        My partner was Vanessa Kim. The following images are the sketches we both provided:
+      </p>
+<img src= "https://cdn.glitch.com/c557c303-c7ea-40bc-865c-c11d9e32a90e%2Fghonellalady.png?v=1632624482917"/>
+     <img src= "https://cdn.glitch.com/c557c303-c7ea-40bc-865c-c11d9e32a90e%2F%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6-3%2001%20%E1%84%8B%E1%85%A1%E1%84%90%E1%85%B3%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3%201.jpg?v=1632624549791"/>
+     
+     <p>
+        The description I provided of my sketch was:
+      </p>
+     <p>
+       This fella is a cheeky, għonnella-wearing burst of color. Face in a Picasso-like state, their left eye is similar to the Maltese Eye of Horus. They are throwing up devil horns in either a heavy metal or ‘fare le corna’ fashion. My suspicion is that it’s both at the same time, cause who knows, maybe they like Pierce The Veil! Maybe if we peek under the long skirt, spiked platform boots can be found! Otherwise, they’re just some traditionally dressed Maltese native.
+     </p>
+     <p>
+      Vanessa Kim provided the following description of their sketch:
+     </p>
+     <p>
+      My name is ANGRYFIREMAN. I fly with the power of fire and burn those who make me angry. My face, hands, and feet are always burning with fire. I like to wear white shirts, but they always get dirty whenever I burn with anger. I always fly around the sky to cool off my anger. 
+
+     </p>
+     
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <p>
+     When combining both pictures, I wanted to make sure the code was interactive rather than a static image. Thus, I included if else statements, where the parts shuffle depending on your mouse coordinates. 
+      </p>
+     <p>
+        At first, the alternating sketches lacked a cohesive color scheme. In order to fix this, I placed blendMode(OVERLAY) over a rectangle that alternates colors when the mouse is clicked. With one color overlaying the entire sketch, it unifies their colors, while also giving the sketch exciting variety.
+      </p>
+      <p>
+        Before beginning the project, I fleshed out Vanessa's sketch. The given sketch was loose enough where I could interperet what I wanted out of the character. Thus, I gave the character a quirky polo shirt and an arm similar to a plug.
+      </p>
+      <div
+        class="fullwidth">
+        <img src= "https://cdn.glitch.com/c557c303-c7ea-40bc-865c-c11d9e32a90e%2FsketchVanessa.png?v=1632625044559"/>
+      </div>
+     <p>
+       I also realized the għonnella was not translating well into code, so I scrapped it as it was distracting to me and potentially the viewer. Below is a screenshot of what it looked likebefore I commented it out.
+       
+     </p>
+     <div>
+       
+     </dov><img src= "https://cdn.glitch.com/c557c303-c7ea-40bc-865c-c11d9e32a90e%2FScreen%20Shot%202021-09-25%20at%2011.22.54%20PM.png?v=1632626832203" />
+      </div>
+       
+     <h1>
+        New Background Story
+      </h1>
+
+      <p>
+      The sketch embodies a creature that sometimes combust into flames. Their head and limbs burn brightly with flames randomly. When their legs are burning, a plug-like tail will pop out. They love fireworks, and will shoot through the sky alongside them.
+      </p>
+
+      
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+      
+      <p>
+        This is the first time I attempted to translate a detailed traditional sketch into code, and I now realize I should never sketch too much before the actual coding. If I make too detailed a sketch, I'll be obsessed with coding those details and get disheartened when I can't make the code look exactly like the sketch. By the end, I had to force myself to stop adding to the code.
+</p>
+      
+
+      <h1>
+        Credits
+      </h1>
+      
+      <p>
+        The assignment can be found <a href="https://critical-computation-2020.glitch.me/assignment/4.html">here</a>
+        from the Critical Computation course website. 
+     </p>
+    <p>The head-flame is remixed from <a href="https://editor.p5js.org/aferriss/sketches/SyTRx_bof">code by p5.js user aferriss</a>.
+      </p>
+      
+    </div>
+  </body>
+</html>

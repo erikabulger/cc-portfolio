@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Erika Bulger | Code Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://use.typekit.net/tic5nhz.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+   <!-- navigation menu -->
+    <div class="nav">
+      <h1>Erika Bulger</h1>
+      <ul>
+        <li><a href="p1.html">#1 Lost and Found</a></li>
+        <li><a href="p2.html">#2 Face Generator</a></li>
+        <li><a href="p3.html">#3 Experimental Clock</a></li>
+        <li><a href="p4.html">#4 Exquisite Corpse</a></li>
+        <li><a href="p5.html">#5 Optical Illusion</a></li>
+        <li><a href="p6.html">#6 Data Portrait</a></li>
+        <li><a href="p7.html">#7 Autobiographical Game</a></li>
+        <li><a href="p8.html">#8 Experimental Camera</a></li>
+        <li><a href="p9.html">#9 Consentful Interface</a></li>
+        <li><a href="p10.html">#10 Anti-Surveillance Tool</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+   <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project #9 Constentful Interface
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+        <iframe 
+          allow="camera"
+          width="500"
+          height="600"
+          src="https://editor.p5js.org/erikabulger/full/QW0rE0zXF"></iframe>
+        
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+       My experimental camera makes bodily gestures necessary in capturing a discernable image. It is meant to explore 
+        consent, as they must "pinch" in order to make themselves visible. 
+      </p>
+     <p>
+       My consentful interface better informs the user through an initial disclaimer screen, provides users the choice to turn on their webcam and the gesture tracking, and users
+       are able 
+       to retract their consent to webcam access + gesture tracking.
+     </p>
+      
+    
+     <h1>
+        Design Process
+      </h1>
+
+      <p>
+      The following is the pre-implementation flow chart sketch for my consentful interface:
+     </p>
+  <img src="https://cdn.glitch.me/c557c303-c7ea-40bc-865c-c11d9e32a90e%2FFRIES%20flow%20chart.png?v=1637458892140"><img/>
+    <p>
+I "sketched" out the interface by writing out
+     the information needed on the initial
+     screen. Here is that sketch:</p>
+     <img src="https://cdn.glitch.me/c557c303-c7ea-40bc-865c-c11d9e32a90e%2FScreen%20Shot%202021-11-20%20at%209.06.46%20PM.png?v=1637460516663"><img/>
+     
+       <p>
+      The main necessary improvements that are now implemented:</p> 
+        <p>1. A disclaimer page with a general description.  </p> 
+         <p>2. Instructions on how to use Gesture Cam.</p> 
+        <p>  3. More information on the extent of webcam access (that the image is not saved anywhere outside of the program
+         without the user's consent).</p> 
+         <p> 4. A linked video tutorial to give user's an idea of what will happen long before consenting to anything.</p> 
+        <p>  5. The option to turn on the user's webcam rather than allowing the program to immediately access it.</p> 
+      <p>    6. The option to turn on gesture tracking.</p> 
+       <p>   7. The option to retract consent even if it had originally been given.
+     </p>
+     
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+       I follow the F.R.I.E.S. model the following ways:
+      </p>
+     <p>
+       Freely Given - The webcam is not immediately accessed and the gesture tracking must be manually turned on. 
+       Consent is not forcefully given, as they are both options that must be 
+       manually turned on within the interface.
+      </p>
+     <p>
+       Reversible - Consent can be retracted within the running program even if it once had been given.
+      </p>
+     <p>
+       Informed - The disclaimer page informs the viewer long before beginning the session on important details. There
+       is also a tutorial video linked.
+      </p>
+     <p>
+       Enthusiastic - Consent is not forcefully given. Users can see what Gesture Cam can do
+       without giving webcam access by viewing the linked video. 
+      </p>
+     <p>
+       Specific - The program specifically asks at each step to turn on certain functionalities (webcam access consent is seperate from
+       gesture tracking consent). Consenting to webcam access does not necessarily mean the user
+       would consent to gesture tracking. The program is specific and does not assume what the
+       user is okay with.
+     </p>
+
+      <p>
+        The consentful Gesture Cam recontextualizes user interaction and experience through the
+        interface and functionality. Not only do you have to consent to webcam access
+        for your image to be visible, but you also have to actively make a "pinching" motion.
+        The program tries to inform the user as much as possible before they agree to anything.
+        Furthermore, consent can be retracted, unlike many other programs.
+  </p>
+  
+      <h1>
+        Credits
+      </h1>
+     <p>
+       The hand tracking functionality is the 2D Hand Model from <a href=
+                                                               "https://handsfree.js.org/">handsfree.js</a>.
+     </p>
+  
+  <p>
+        The assignment can be found
+        <a
+          href="https://parsonsdt.github.io/critical-computation-2021/assignment/9.html"
+          >here</a
+        >
+        from the Critical Computation course website.
+      </p>
+    </div>
+  </body>
+</html>

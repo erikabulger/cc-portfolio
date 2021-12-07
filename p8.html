@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Erika Bulger | Code Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://use.typekit.net/tic5nhz.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+   <!-- navigation menu -->
+    <div class="nav">
+      <h1>Erika Bulger</h1>
+      <ul>
+        <li><a href="p1.html">#1 Lost and Found</a></li>
+        <li><a href="p2.html">#2 Face Generator</a></li>
+        <li><a href="p3.html">#3 Experimental Clock</a></li>
+        <li><a href="p4.html">#4 Exquisite Corpse</a></li>
+        <li><a href="p5.html">#5 Optical Illusion</a></li>
+        <li><a href="p6.html">#6 Data Portrait</a></li>
+        <li><a href="p7.html">#7 Autobiographical Game</a></li>
+        <li><a href="p8.html">#8 Experimental Camera</a></li>
+        <li><a href="p9.html">#9 Consentful Interface</a></li>
+        <li><a href="p10.html">#10 Anti-Surveillance Tool</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+   <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project #8 Experimental Camera
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+        <iframe 
+          allow="camera"
+          width="600px"
+          height="600"
+          src="https://editor.p5js.org/erikabulger/full/5sldbH6xr">
+        </iframe>
+      </div>
+      <p>
+        <a href="https://editor.p5js.org/erikabulger/sketches/5sldbH6xr"
+          >link to code</a
+        >
+      </p>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        My experimental camera makes bodily gestures necessary in capturing a discernable image. It is meant to explore 
+        consent, as they must "pinch" in order to make themselves visible. 
+      </p>
+     <p>
+       Each finger is assigned a different color, and those colors are randomly generated per session. When a certain finger is pinched, that color is then used. Both left and right hands can pinch at the same time to 
+       use two different colors at the same time. Also, the size of the colored pixels change depending
+       on where on the canvas the pinch commences. A pinch in the top-left corner will have the smallest size in comparison to a pinch in the bottom-right.
+     </p>
+     <p>
+       The meaning that emerges from the experimental camera involves gestures. Video calls are often
+       only meant to capture the shoulders up. In today's webcam-based communications,
+       gestures have been replaced by emojis and typed comments. This is an exploration in ways our
+       hands can have a purpose again in digital communication. This scenario specifically
+       uses gestures in consent, or "allowing" the camera to capture you.
+     </p>
+      
+
+      <!-- 4. reflection -->
+      <h1>
+        Example Video & Images
+      </h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fk-lFkklYjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img
+        src="https://cdn.glitch.me/c557c303-c7ea-40bc-865c-c11d9e32a90e%2FUntitled%20story.png?v=1636849222667"
+      />
+      <img/>
+    
+     <h1>
+        Design Process
+      </h1>
+
+      <p>
+      The following were my three design sketches:
+     </p>
+  <img src="https://cdn.glitch.me/c557c303-c7ea-40bc-865c-c11d9e32a90e%2F1webcam.png?v=1636849898891"><img/>
+     <p>
+    The first idea was to have the webcam recognize a hand gesture and then present
+       a textbook definition of that gesture. For example, the peace sign would be present a wordy
+       excerpt from wikipedia,
+       "The V sign is a hand gesture in which the index and middle fingers are raised and parted to make a V shape while the other fingers are clenched...
+       in the 1960s, the "V sign" with palm outward was widely adopted by the counterculture as a symbol of peace..." etc etc. The description would be
+       purposely verbose.
+     </p>
+  <img src="https://cdn.glitch.me/c557c303-c7ea-40bc-865c-c11d9e32a90e%2Fwebcam2.png?v=1636850251194"><img/>
+     <p>
+       The second idea was similar to the first in it would recognize hand gestures.
+       However, in this example, each hand gesture would correlate to a different filter.
+     </p>
+  <img src="https://cdn.glitch.me/c557c303-c7ea-40bc-865c-c11d9e32a90e%2F3webcam.png?v=1636850780445"><img/>
+  <p>
+      The third option had each hand dictate the colors that are used on screen. If one hand is signalling a blue fill and the other hand is signalling a green fill, they 
+    both would be present through the loaded pixels.
+     </p>
+     
+       <p>
+      My final concept is most similar with the third sketch, as it uses the finger pinching functionality that handsfree.js provides. I made
+         the effect less clear as I enjoy more experimental and gritty visuals.
+     </p>
+     
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        Through this project, I learned how to use handsfree.js. I am using the functionality to assist
+        me in my future projects, as I love the interactivity that hand tracking provides.
+      </p>
+
+      <p>
+        My code provides a unique version of consentual webcam “seeing”. Usually,
+        we are asked to click a button. Here, we must continue gesturing in order for our form to
+        be captured.
+  </p>
+  
+      <h1>
+        Credits
+      </h1>
+     <p>
+       The hand tracking functionality is the 2D Hand Model from <a href=
+                                                               "https://handsfree.js.org/">handsfree.js</a>.
+     </p>
+  
+  <p>
+        The assignment can be found
+        <a
+          href="https://parsonsdt.github.io/critical-computation-2021/assignment/8.html"
+          >here</a
+        >
+        from the Critical Computation course website.
+      </p>
+    </div>
+  </body>
+</html>
